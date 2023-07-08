@@ -1,0 +1,51 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(5, 88, 5, .8);
+    /* animation-name: background;
+    animation-timing-function: cubic-bezier();
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: inherit; */
+}
+#h1{
+    color: goldenrod;
+    font-size: 4rem;
+}
+#message-el{
+    font-style: italic;
+}
+
+/* Style the button according to the provided design
+  text-color: #016f3z
+  width:150px
+  backgroound : goldenrod */
+ 
+button{
+   color: #016f32;
+   width: 150px;
+   background: goldenrod;
+   border: none;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-weight: bold;
+   border-radius: 2px;
+}  
+#button-el{
+    margin-top: 4px;
+}
+
+@keyframes background{
+    /* 0%{
+        background-color:rgba(11, 59, 11, 0.5);
+    } */
+from{
+        background-color:rgba(166, 55, 0, 0.9);
+    }
+    to{
+        background-color:rgb(1, 40, 1);
+    }
+}
